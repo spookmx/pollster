@@ -1,0 +1,21 @@
+{
+  "generator-angular-meteor": {
+    "filters": {
+      "js": true,
+      "html": true,
+      "css": true,
+      "pagination": true,
+      "framework": "ionic",
+      "bower": false,
+      "auth": true,
+      "oauth": true,
+      "facebookAuth": true,
+      "twitterAuth": true,
+      "appname": "pollsterApp",
+      "projectname": "pollster",
+      "modules": "'angular-meteor',\n  'ionic',\n  'angularUtils.directives.dirPagination',\n  'accounts.ui'",
+      "usedBower": false
+    },
+    "appname": "pollster"
+  }
+}

@@ -1,0 +1,11 @@
+<ion-pane>
+  <ion-content class="padding things">
+    <h1>Things</h1>
+    <!-- 
+      Due to ion-content creating a child scope, we have to use $parent to
+      access our own scope. This only applies for variables inside an
+      ion-content directive. Outside ion-content you can call 'things' directly
+      ng-submit="$parent.save()" 
+    -->
+  </ion-content>
+</ion-pane>
